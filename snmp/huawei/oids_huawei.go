@@ -15,6 +15,7 @@ var VendorOIDs = map[string]map[string]map[string]map[string]string{
 				"onuDistance": "1.3.6.1.4.1.2011.6.128.1.1.2.46.1.20",
 				"onuRxPower":  ".1.3.6.1.4.1.2011.6.128.1.1.2.51.1.4", //ONT RX Power: (OLT->ONT)
 				"onuTxPower":  ".1.3.6.1.4.1.2011.6.128.1.1.2.51.1.6", //OLT RX Power: (ONT<-OLT)
+				"onuStatus":   ".1.3.6.1.4.1.2011.5.6.1.2.1.5",
 			},
 
 			"EPON": {
